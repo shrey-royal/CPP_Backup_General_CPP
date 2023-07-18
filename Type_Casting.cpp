@@ -3,17 +3,34 @@
 using namespace std;
 
 int main() {
-    int a = 10;
-    float b = a; // Implicit Casting
+    // int a = 10;
+    // float b = a; // Implicit Casting
 
-    cout << "Value of a: " << a  << "\t\t" << typeid(a).name() << ": " << sizeof(a) << endl;
-    cout << "Value of b: " << b << "\t\t" << typeid(b).name() << ": " << sizeof(b) << endl;
+    // cout << "Value of a: " << a  << "\t\t" << typeid(a).name() << ": " << sizeof(a) << endl;
+    // cout << "Value of b: " << b << "\t\t" << typeid(b).name() << ": " << sizeof(b) << endl;
 
-    float c = 10.5;
-    int d = (int)c; // Explicit Casting
+    // float c = 10.5;
+    // int d = (int)c; // Explicit Casting
 
-    cout << "Value of c: " << c << "\t" << typeid(c).name() << ": " << sizeof(c) << endl;
-    cout << "Value of d: " << d << "\t\t" << typeid(d).name() << ": " << sizeof(d) << endl;
+    // cout << "Value of c: " << c << "\t" << typeid(c).name() << ": " << sizeof(c) << endl;
+    // cout << "Value of d: " << d << "\t\t" << typeid(d).name() << ": " << sizeof(d) << endl;
+
+    //Example of conversion of char to int
+
+    // char a;
+    // cout << "Enter any character and the program will give you the ASCII value of that character: ";
+    // cin >> a;
+    // cout << "ASCII value of " << a << " is " << (int)a << endl;
+
+    //Example of conversion of int to char
+
+    int a;
+    char c;
+    cout << "Enter any number between 0 to 255 and the program will give you the character of that ASCII value: ";
+    cin >> a;
+    c = a;  // Implicit Casting
+    cout << "Character of ASCII value " << a << " is " << c << endl;
+
 
     return 0;
 
