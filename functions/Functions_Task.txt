@@ -1,0 +1,19 @@
+1. Temperature Conversion: Write a C++ program that includes functions to convert temperatures between Celsius and Fahrenheit. The user should be able to input a temperature in one unit and get the converted temperature in the other unit.
+
+2. Factorial Calculation: Create a C++ program that calculates the factorial of a given integer using a function. The program should prompt the user to enter a positive integer and then display the factorial.
+
+3. Prime Number Check: Write a C++ function that takes an integer as input and returns true if it's a prime number, and false otherwise. The main program should prompt the user for an integer and display whether it's prime or not.
+
+4. Palindrome Check: Develop a C++ program that uses a function to check if a given string is a palindrome or not. The program should prompt the user to enter a string and then display the result.
+
+5. Array Manipulation: Create a C++ program with functions to find the sum, average, maximum, and minimum values in an array of integers. The user should input the array, and the program should display the results.
+
+6. String Manipulation: Write a C++ function that takes two strings as input and returns true if one is an anagram of the other, and false otherwise. An anagram is a word formed by rearranging the letters of another word.
+
+7. Fibonacci Series: Develop a C++ program that generates the Fibonacci series up to a given number n using a function. The user should input the value of n, and the program should display the Fibonacci series.
+
+8. Linear Search: Implement a C++ function to perform a linear search in an array for a given element. The function should return the index of the element if found, or -1 if not found. The main program should prompt the user to input the array and the element to search.
+
+9. Quadratic Equation Solver: Write a C++ program that includes a function to solve quadratic equations (ax^2 + bx + c = 0) given the coefficients a, b, and c. The program should prompt the user to input the coefficients and display the solutions.
+
+10. Matrix Multiplication: Create a C++ program that multiplies two matrices using functions. The user should input the dimensions and elements of the matrices, and the program should display the resulting matrix.

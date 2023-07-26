@@ -1,0 +1,33 @@
+C Functions are just like the assistants:
+
+Example: 
+    If i want a tea i will ask my assistant to make a tea for me.
+
+    here we can assume 4 scenarios:
+    1. I will ask my assistant to make a tea for me. (i will not tell him how to make a tea) (here assistant is a function)
+    > so it will become a function without parameters and without return type.
+
+    2. I will ask my assistant to make a tea for me. (i will tell him how to make a tea) (here assistant is a function)
+    > so it will become a function with parameters and without return type.
+
+    3. I will ask my assistant to make a tea for me. (i will not tell him how to make a tea) (here assistant is a function) (i will ask him to give me a tea)
+    > so it will become a function without parameters and with return type.
+
+    4. I will ask my assistant to make a tea for me. (i will tell him how to make a tea) (here assistant is a function) (i will ask him to give me a tea)
+    > so it will become a function with parameters and with return type.
+
+Functions are of 4 types:
+1. Function without parameters and without return type.
+2. Function with parameters and without return type.
+3. Function without parameters and with return type.
+4. Function with parameters and with return type.
+
+Now Functions are used in 3 different steps:
+1. Function Declaration: (Function Prototype)
+> Function Declaration is the process of declaring a function. here we are telling the compiler that we are going to use a function with this name and this return type and this parameters.
+
+2. Function Definition: (Function Body)
+> Function Definition is the process of defining a function. here we are telling the compiler that we are going to use a function with this name and this return type and this parameters and this is the body of the function.
+
+3. Function Calling: 
+> Function Calling is the process of calling a function. here we are telling the compiler that we are going to use a function with this name and this return type and this parameters this is the place where we are going to call the function.
