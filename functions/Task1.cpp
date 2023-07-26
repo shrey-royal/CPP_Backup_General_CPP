@@ -9,7 +9,6 @@ int getFibonacci(int n) {
     }
 }
 
-
 int main() {
 
     int n;
